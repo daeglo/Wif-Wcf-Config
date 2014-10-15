@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="fdDusqfscJFEFA76sWMlRQ0IxH0=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="klT3fdz4i+5SBBimE5Ytmv6Gjqc=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="ws2007FederationHttpBinding" name="WS2007FederationHttpBinding_IService">
       <properties>
@@ -109,7 +109,7 @@
           <serializedValue>System.ServiceModel.Configuration.IssuedTokenParametersEndpointAddressElement</serializedValue>
         </property>
         <property path="/security/message/issuer/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://schemas.microsoft.com/2005/12/ServiceModel/Addressing/Anonymous</serializedValue>
+          <serializedValue>https://localhost:44300/issue/wstrust/mixed/username</serializedValue>
         </property>
         <property path="/security/message/issuer/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -178,7 +178,7 @@
           <serializedValue>System.ServiceModel.Configuration.EndpointAddressElementBase</serializedValue>
         </property>
         <property path="/security/message/issuerMetadata/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://localhost/adfs/services/trust/mex</serializedValue>
+          <serializedValue>https://localhost:44300/issue/wstrust/mex</serializedValue>
         </property>
         <property path="/security/message/issuerMetadata/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
